@@ -33,10 +33,13 @@ We propose a synthetic data generation and annotation framework that enables pan
 - We build and release three synthetic datasets (COCO-Zero, COCO-Reflect, and COCO-Circular), as well as enhanced annotations for 360-Indoor+, significantly boosting training efficiency and performance.
 
 - Extensive experiments on PANDORA and 360-Indoor+ demonstrate that our method consistently improves detection accuracy over state-of-the-art approaches.
+
 ---
 
 ## ✅ Updates
 - (05/08/2025) All annotations, configuration files, logs, and pretrained models are now available! The full codebase will be made publicly available upon the acceptance of the paper.
+
+---
 
 ## 🚀 Getting Started
 
@@ -55,6 +58,8 @@ mim install mmrotate
 
 pip install future tensorboard Pillow==9.5.0 pydantic numba
 ```
+
+---
 
 ## 📦 Datasets
 
@@ -104,6 +109,7 @@ We provide:
 ### PANDORA
 We validate the effectiveness of our method on the [**PANDORA**](https://github.com/tdsuper/SphericalObjectDetection) dataset.
 
+---
 
 ## 🛠️  Model Training and Inference
 
