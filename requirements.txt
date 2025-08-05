@@ -1,0 +1,9 @@
+mmengine
+mmcv>=2.0.0rc2
+mmdet>=3.0.0rc2,<=3.1.0
+mmrotate==1.0.0rc1
+tensorboard
+Pillow==9.5.0
+pydantic
+numba
+cairosvg
