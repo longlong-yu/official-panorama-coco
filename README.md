@@ -77,6 +77,8 @@ Specifically, we follow the RBFoV format proposed in [**Pandora: A panoramic det
 All annotations provided in this repository conform to this format.
 In our experiments, we use the radian version of this format as input to the detection models.
 
+***
+
 ### Synthetic Datasets Based on COCO
 
 We construct three synthetic panoramic datasets using images and labels from the [**COCO**](https://cocodataset.org) dataset:
@@ -98,6 +100,8 @@ scripts/merge_anns.sh
 
 - Precomputed annotation files ([**COCO-Zero**](https://github.com/longlong-yu/official-panorama-coco/releases/tag/v1.0.0-coco-zero), [**COCO-Reflect**](https://github.com/longlong-yu/official-panorama-coco/releases/tag/v1.0.0-coco-reflect), [**COCO-Circular**](https://github.com/longlong-yu/official-panorama-coco/releases/tag/v1.0.0-coco-circular)) in RBFoV format; corresponding images can be synthesized using the provided scripts.
 
+***
+
 ### 360-Indoor & 360-Indoor+
 
 We enhance the [**360-Indoor**](https://aliensunmin.github.io/project/360-dataset/) dataset using [**SAM**](https://github.com/facebookresearch/segment-anything)-generated masks and our annotation pipeline to produce 360-Indoor+, which includes rotation-aware, accurate spherical bounding boxes.
@@ -105,6 +109,8 @@ We enhance the [**360-Indoor**](https://aliensunmin.github.io/project/360-datase
 We provide:
 
 - Unified RBFoV-format annotations for both [**360-Indoor**](https://github.com/longlong-yu/official-panorama-coco/releases/tag/v1.0.0-360-indoor) and [**360-Indoor+**](https://github.com/longlong-yu/official-panorama-coco/releases/tag/v1.0.0-360-indoor%2B).
+
+***
 
 ### PANDORA
 We validate the effectiveness of our method on the [**PANDORA**](https://github.com/tdsuper/SphericalObjectDetection) dataset.
