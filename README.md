@@ -1,4 +1,4 @@
-# Enhance Panoramic Object Detection Using Planar Image Datasets
+# <center> Enhance Panoramic Object Detection Using Planar Image Datasets</center>
 
 <!-- [![TMM](https://img.shields.io/badge/TMM-2025-f8d561)](https://ijcai-23.org/) -->
 [![PyTorch](https://img.shields.io/badge/PyTorch-1.12.0-ee4c2c)](https://pytorch.org/)
