@@ -1,10 +1,37 @@
-# <center> Enhance Panoramic Object Detection Using Planar Image Datasets</center>
+<h1 align="center"> Enhance Panoramic Object Detection Using Planar Image Datasets</h1>
 
-<!-- [![TMM](https://img.shields.io/badge/TMM-2025-f8d561)](https://ijcai-23.org/) -->
-[![PyTorch](https://img.shields.io/badge/PyTorch-1.12.0-ee4c2c)](https://pytorch.org/)
-[![mmdet](https://img.shields.io/badge/mmdet-3.1.0-FFD700)](https://github.com/open-mmlab/mmdetection/releases/tag/v3.1.0)
-[![mmrotate](https://img.shields.io/badge/mmrotate-1.0.0rc1-blue)](https://github.com/open-mmlab/mmrotate/tree/v1.0.0rc1)
-[![license](https://img.shields.io/badge/license-Apache--2.0-green)](https://github.com/longlong-yu/official-panorama-coco/blob/main/LICENSE)
+<p align="center">
+    <!-- <a href="https://ijcai-23.org/">
+        <img alt="TMM" src="https://img.shields.io/badge/TMM-2025-f8d561">
+    </a> -->
+    <a href="https://pytorch.org/">
+        <img alt="PyTorch" src="https://img.shields.io/badge/PyTorch-1.12.0-ee4c2c">
+    </a>
+    <a href="https://github.com/open-mmlab/mmdetection/releases/tag/v3.1.0">
+        <img alt="mmdet" src="https://img.shields.io/badge/mmdet-3.1.0-FFD700">
+    </a>
+    <a href="https://github.com/open-mmlab/mmrotate/tree/v1.0.0rc1">
+        <img alt="mmrotate" src="https://img.shields.io/badge/mmrotate-1.0.0rc1-blue">
+    </a>
+    <a href="https://github.com/longlong-yu/official-panorama-coco/blob/main/LICENSE">
+        <img alt="license" src="https://img.shields.io/badge/license-Apache--2.0-green">
+    </a>
+</p>
+
+<h4 align="center">
+    <p>
+        <a href="#introduction">Introduction</a> |
+        <a href="#key-contributions">Key Contributions</a> |
+        <a href="#updates">Updates</a> |
+        <a href="#getting-started">Getting Started</a> |
+        <a href="#datasets">Datasets</a> |
+        <a href="#model-training-and-inference">Model Training and Inference</a> |
+        <a href="#main-results">Main Results</a> |
+        <a href="#acknowledgements">Acknowledgements</a> |
+        <!-- <a href="#citation">Citation</a> | -->
+        <a href="#contact">Contact</a>
+    <p>
+</h4>
 
 ## 🌀 Introduction
 
@@ -163,6 +190,18 @@ The performance curves across different training subsets demonstrate that our me
 
 ---
 
+## 🙏 Acknowledgements
+
+We implemented CenterNet based on the methods described in [**Pandora: A panoramic detection dataset for object with orientation**](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136680229-supp.pdf) and [**Unbiased iou for spherical image object detection**](https://ojs.aaai.org/index.php/AAAI/article/download/19929/19688), and RetinaNet following the approach proposed in [**Sph2Pob: Boosting Object Detection on Spherical Images with Planar Oriented Boxes Methods**](https://www.ijcai.org/proceedings/2023/0137.pdf).
+
+We would like to especially thank [**Dr. Xinyuan Liu**](https://github.com/AntXinyuan) for providing the implementation code and offering valuable suggestions and support.
+
+We also thank Dr. Shih-Han Chou for kindly providing access to the 360-Indoor dataset, which was essential for our experiments.
+
+This project extends the open-source library [**equilib**](https://github.com/haruishi43/equilib) to support PyTorch-based cubemap-to-panorama conversion and panoramic image rotation.
+
+---
+
 <!-- ## 📄 Citation
 
 If you find this work helpful, please consider citing:
@@ -181,18 +220,3 @@ If you find this work helpful, please consider citing:
 ## 📬 Contact
 
 For questions or suggestions, please open an issue or contact us at: longlong.yu@hdu.edu.cn.
-
----
-
-## 🙏 Acknowledgements
-
-We implemented CenterNet based on the methods described in [**Pandora: A panoramic detection dataset for object with orientation**](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136680229-supp.pdf) and [**Unbiased iou for spherical image object detection**](https://ojs.aaai.org/index.php/AAAI/article/download/19929/19688), and RetinaNet following the approach proposed in [**Sph2Pob: Boosting Object Detection on Spherical Images with Planar Oriented Boxes Methods**](https://www.ijcai.org/proceedings/2023/0137.pdf).
-
-We would like to especially thank [**Dr. Xinyuan Liu**](https://github.com/AntXinyuan) for providing the implementation code and offering valuable suggestions and support.
-
-We also thank Dr. Shih-Han Chou for kindly providing access to the 360-Indoor dataset, which was essential for our experiments.
-
-This project extends the open-source library [**equilib**](https://github.com/haruishi43/equilib) to support PyTorch-based cubemap-to-panorama conversion and panoramic image rotation.
-
-
-
