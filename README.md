@@ -20,16 +20,16 @@
 
 <h4 align="center">
     <p>
-        <a href="#introduction">Introduction</a> |
-        <a href="#key-contributions">Key Contributions</a> |
-        <a href="#updates">Updates</a> |
-        <a href="#getting-started">Getting Started</a> |
-        <a href="#datasets">Datasets</a> |
-        <a href="#model-training-and-inference">Model Training and Inference</a> |
-        <a href="#main-results">Main Results</a> |
-        <a href="#acknowledgements">Acknowledgements</a> |
-        <!-- <a href="#citation">Citation</a> | -->
-        <a href="#contact">Contact</a>
+        <a href="#-introduction">Introduction</a> |
+        <a href="#-key-contributions">Key Contributions</a> |
+        <a href="#-updates">Updates</a> |
+        <a href="#-getting-started">Getting Started</a> |
+        <a href="#-datasets">Datasets</a> |
+        <a href="#-model-training-and-inference">Model Training and Inference</a> |
+        <a href="#-main-results">Main Results</a> |
+        <a href="#-acknowledgements">Acknowledgements</a> |
+        <!-- <a href="#-citation">Citation</a> | -->
+        <a href="#-contact">Contact</a>
     <p>
 </h4>
 
