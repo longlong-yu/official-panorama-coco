@@ -37,8 +37,12 @@
 
 This repository contains the official implementation of the paper:
 
-**Enhance Panoramic Object Detection Using Planar Image Datasets**  
-<!-- _(Accepted to IEEE Transactions on Multimedia, 2025)_ -->
+<p align="center"><b>
+Enhance Panoramic Object Detection Using Planar Image Datasets
+</b></p>
+<p align="center"><i>
+(Accepted to IEEE Transactions on Multimedia, 2025)
+</i></p>
 
 We propose a synthetic data generation and annotation framework that enables panoramic object detection using existing large-scale **planar image datasets**. Instead of relying solely on limited real-world panoramic data, we introduce a geometry-aware synthetic data generation framework that transforms perspective images into realistic spherical panoramas with accurate annotations.
 
@@ -83,7 +87,8 @@ pip install -U openmim
 mim install 'mmdet>=3.0.0rc2,<=3.1.0'
 mim install mmrotate
 
-pip install future tensorboard Pillow==9.5.0 pydantic numba
+pip install future tensorboard
+pip install Pillow==9.5.0 pydantic numba
 ```
 
 ---
