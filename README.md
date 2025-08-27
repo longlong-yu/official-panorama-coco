@@ -68,6 +68,7 @@ We propose a synthetic data generation and annotation framework that enables pan
 ---
 
 ## ✅ Updates
+- (27/08/2025) Our paper has been accepted by IEEE Transactions on Multimedia (TMM 2025)! 🎉 All source codes have now been fully released in this repository.
 - (05/08/2025) All annotations, configuration files, logs, and pretrained models are now available! The full codebase will be made publicly available upon the acceptance of the paper.
 
 ---
