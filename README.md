@@ -208,20 +208,21 @@ This project extends the open-source library [**equilib**](https://github.com/ha
 
 ---
 
-<!-- ## 📄 Citation
+## 📄 Citation
 
 If you find this work helpful, please consider citing:
 
 ```bibtex
 @article{your2025paper,
   title     = {Enhance Panoramic Object Detection Using Planar Image Datasets},
-  author    = {Your Name and Coauthors},
+  author    = {Yu, Longlong and Zhao, Qiang and Wang, Bin and Liu, Xinyuan and Zhao, Wenting and Wang, Tingyu and He, Hong and Dai, Feng and Yan, Chenggang},
   journal   = {IEEE Transactions on Multimedia},
-  year      = {2025}
+  year      = {2026},
+  publisher = {IEEE}
 }
 ```
 
---- -->
+---
 
 ## 📬 Contact
 
