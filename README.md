@@ -1,9 +1,9 @@
 <h1 align="center"> Enhance Panoramic Object Detection Using Planar Image Datasets</h1>
 
 <p align="center">
-    <!-- <a href="https://ijcai-23.org/">
+    <a href="https://ieeexplore.ieee.org/abstract/document/11397097">
         <img alt="TMM" src="https://img.shields.io/badge/TMM-2025-f8d561">
-    </a> -->
+    </a>
     <a href="https://pytorch.org/">
         <img alt="PyTorch" src="https://img.shields.io/badge/PyTorch-1.12.0-ee4c2c">
     </a>
@@ -28,7 +28,7 @@
         <a href="#-model-training-and-inference">Model Training and Inference</a> |
         <a href="#-main-results">Main Results</a> |
         <a href="#-acknowledgements">Acknowledgements</a> |
-        <!-- <a href="#-citation">Citation</a> | -->
+        <a href="#-citation">Citation</a> |
         <a href="#-contact">Contact</a>
     <p>
 </h4>
@@ -41,7 +41,7 @@ This repository contains the official implementation of the paper:
 Enhance Panoramic Object Detection Using Planar Image Datasets
 </b></p>
 <p align="center"><i>
-(Accepted to IEEE Transactions on Multimedia, 2025)
+(Accepted to IEEE Transactions on Multimedia, 2026)
 </i></p>
 
 We propose a synthetic data generation and annotation framework that enables panoramic object detection using existing large-scale **planar image datasets**. Instead of relying solely on limited real-world panoramic data, we introduce a geometry-aware synthetic data generation framework that transforms perspective images into realistic spherical panoramas with accurate annotations.
@@ -150,7 +150,7 @@ We validate the effectiveness of our method on the [**PANDORA**](https://github.
 
 ---
 
-## 🛠️  Model Training and Inference
+## 🛠️ Model Training and Inference
 
 Our method is implemented based on the [**MMDetection**](https://mmdetection.readthedocs.io/en/latest/) and [**MMRotate**](https://mmrotate.readthedocs.io/en/latest/) frameworks.
 Training and inference are performed using the standard tools and interfaces provided by these toolkits, ensuring compatibility and ease of use. 
