@@ -2,7 +2,7 @@
 
 <p align="center">
     <a href="https://ieeexplore.ieee.org/abstract/document/11397097">
-        <img alt="TMM" src="https://img.shields.io/badge/TMM-2025-f8d561">
+        <img alt="TMM" src="https://img.shields.io/badge/TMM-2026-f8d561">
     </a>
     <a href="https://pytorch.org/">
         <img alt="PyTorch" src="https://img.shields.io/badge/PyTorch-1.12.0-ee4c2c">
